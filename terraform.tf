@@ -221,7 +221,7 @@ tags = merge({ Name = "frontend-softwave-${count.index + 1}" }, var.tags)
 
 resource "aws_key_pair" "generated_key" {
   key_name   = var.key_name
-  public_key = file("id_rsa.pem.pub")
+  public_key = file("id_softwave.pem.pub")
 }
 
 # EC2 Backend (2 instâncias) - em subnets privadas, sem IP público
