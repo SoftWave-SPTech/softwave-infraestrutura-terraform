@@ -11,10 +11,10 @@ Este projeto provisiona uma infraestrutura básica na AWS utilizando Terraform, 
 Execute o comando abaixo no terminal para criar a chave:
 
 ```sh
-ssh-keygen -m PEM -t rsa -b 4096 -f id_rsa.pem
+ssh-keygen -m PEM -t rsa -b 4096 -f id_softwave.pem
 ```
 
-O arquivo `id_rsa.pem` será usado para acessar as instâncias EC2.
+O arquivo `id_softwave.pem` será usado para acessar as instâncias EC2.
 
 ## Passos para rodar o Terraform
 
