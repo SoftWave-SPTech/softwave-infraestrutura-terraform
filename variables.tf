@@ -29,7 +29,7 @@ default = ["10.0.3.0/24", "10.0.4.0/24"]
 variable "instance_type" {
 description = "Tipo das instâncias EC2"
 type = string
-default = "t3.micro"
+default = "t3.xlarge"
 }
 
 
